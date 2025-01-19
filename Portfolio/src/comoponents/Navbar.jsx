@@ -8,8 +8,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white fixed w-full z-7 border-b z-20">
-      <div className="container mx-auto flex items-center justify-between p-4 sm:p-2">
+    <nav className="bg-gray-800 text-white fixed w-full z-7 border-b z-20 ">
+      <div className="container mx-auto flex items-center justify-between p-2 sm:p-2">
         {/* Logo */}
         <div className="text-xl font-bold text-yellow-400">H Shukla</div>
 

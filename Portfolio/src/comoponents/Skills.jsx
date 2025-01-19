@@ -5,8 +5,8 @@ function Skills() {
   const skills = [
     { name: "Java", icon: "fab fa-java", description: "Object-oriented programming language for backend development." },
     { name: "Data Structures and Algorithms (DSA)", icon: "fas fa-cogs", description: "Fundamentals of computer science, focusing on algorithms and data structures." },
-    { name: "Java Collections Framework", icon: "fas fa-code-branch", description: "A set of classes and interfaces for working with collections of objects in Java." },
-    { name: "Spring Boot", icon: "fab fa-java", description: "A framework for building Java-based backend applications." },
+    
+    
     { name: "React.js", icon: "fab fa-react", description: "A JavaScript library for building user interfaces, focusing on component-based architecture." },
     { name: "Node.js", icon: "fab fa-node-js", description: "JavaScript runtime built on Chrome's V8 JavaScript engine for building scalable network applications." },
     { name: "Express.js", icon: "fas fa-server", description: "A minimal and flexible Node.js web application framework for building APIs." },
@@ -16,8 +16,8 @@ function Skills() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 px-4 py-8">
-      <div className="bg-gray-700 text-white shadow-lg rounded-lg p-6 max-w-[90%] sm:max-w-[80%]">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4 py-8">
+      <div className="bg-gray-700 text-white shadow-lg rounded-lg p-6 max-w-[90%] sm:max-w-[90%]">
         <h1 className="text-3xl font-bold text-yellow-400 mb-6 text-center">Skills</h1>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => (

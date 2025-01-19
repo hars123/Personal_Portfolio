@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8  border-t">
+    <footer className="bg-gray-900 text-white py-8  border-t">
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center">
         {/* Left Side: Contact Information */}
         <div className="text-center sm:text-left mb-6 sm:mb-0">
