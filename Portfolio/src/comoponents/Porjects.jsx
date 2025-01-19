@@ -16,7 +16,7 @@ function Projects() {
       description:
         "A Crowdfunding App allows individuals or organizations to raise money for various causes, including startups, charitable events, or personal projects.",
       icon: "fas fa-hand-holding-usd",
-      image: "path/to/crowdfunding-image.jpg", // Add your image path
+      image: "https://github.com/hars123/Personal_Portfolio/blob/main/Portfolio/src/assets/Crowdfunding%20Ecosystem%20Modern%20Facebook%20Cover.png?raw=true", // Add your image path
       githubLink: "https://github.com/harshit-shukla/CrowdfundingApp",
       liveLink: "https://crowdfundingapp.com"
     },
@@ -25,7 +25,7 @@ function Projects() {
       description:
         "A Hospital Management System (HMS) is an integrated system designed to handle all aspects of managing a hospital’s operations.",
       icon: "fas fa-briefcase",
-      image: "path/to/hospitalmanagement-image.jpg", // Add your image path
+      image: "https://github.com/hars123/Personal_Portfolio/blob/main/Portfolio/src/assets/Blue%20Simple%20Medical%20Clinic%20Presentation_page-0001.jpg?raw=true", // Add your image path
       githubLink: "https://github.com/harshit-shukla/HospitalManagement",
       liveLink: "https://hospitalmanagement.com"
     },
@@ -34,7 +34,7 @@ function Projects() {
       description:
         "A Job Portal is a platform where job seekers can search and apply for jobs, and employers can post job listings and find candidates.",
       icon: "fas fa-users",
-      image: "", // Add your image path
+      image: "https://github.com/hars123/Personal_Portfolio/blob/main/Portfolio/src/assets/Blue%20Modern%20Corporate%20Job%20Vacancy%20Instagram%20Post.png?raw=true", // Add your image path
       githubLink: "https://github.com/harshit-shukla/JobPortal",
       liveLink: "https://jobportal.com"
     }
@@ -54,7 +54,7 @@ function Projects() {
               <img
                 src={project.image}
                 alt={project.name}
-                className="w-full h-48 object-cover rounded-t-lg mb-4"
+                className="w-full h-48 sm:h-60 md:h-72  rounded-t-lg mb-4"
               />
               
               <div className="flex items-center space-x-4 mb-4">
