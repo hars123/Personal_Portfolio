@@ -16,7 +16,7 @@ function Skills() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4 py-8">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4 py-8 pb-10 pt-20">
       <div className="bg-gray-700 text-white shadow-lg rounded-lg p-6 max-w-[90%] sm:max-w-[90%]">
         <h1 className="text-3xl font-bold text-yellow-400 mb-6 text-center">Skills</h1>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

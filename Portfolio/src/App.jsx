@@ -5,6 +5,7 @@ import About from './comoponents/About'
 import Skills from './comoponents/Skills'
 import Projects from './comoponents/Porjects'
 import Footer from './comoponents/footer'
+import Contactus from './comoponents/Contactus'
 
 
 
@@ -17,6 +18,7 @@ function App() {
 <About/>
 <Skills/>
 <Projects/>
+<Contactus/>
 <Footer/>
  
 </>
