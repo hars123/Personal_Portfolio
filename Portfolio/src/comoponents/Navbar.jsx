@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll"; // Import Link from react-scroll
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white fixed w-full z-7  z-20 ">
+    <nav className="bg-gray-800 text-white fixed w-full z-20">
       <div className="container mx-auto flex items-center justify-between p-2 sm:p-2">
         {/* Logo */}
         <div className="text-xl font-bold text-yellow-400">H Shukla</div>
@@ -28,50 +29,50 @@ const Navbar = () => {
           } transition-all duration-300 ease-in-out`}
         >
           <li>
-            <a
-              href="#home"
-              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline"
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#about"
-              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline"
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#skills"
-              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline"
+            <Link
+              to="skills"
+              smooth={true}
+              duration={500}
+              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Skills
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#projects"
-              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline"
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Projects
-            </a>
+            </Link>
           </li>
-          <li>
-            <a
-              href="#resume"
-              className="block px-4 py-2 hover:bg-gray-700 rounded sm:inline"
-              onClick={() => setIsOpen(false)}
-            >
-              Resume
-            </a>
-          </li>
+          
         </ul>
       </div>
     </nav>

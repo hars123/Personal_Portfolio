@@ -41,7 +41,7 @@ function Projects() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4 pt-20 pb-20">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4 pt-20 pb-20" id="projects">
       <div className="bg-gray-700 text-white shadow-lg rounded-lg p-8 max-w-[90%] sm:max-w-[90%]">
         <h1 className="text-3xl font-bold text-yellow-400 mb-6 text-center">
           Projects
