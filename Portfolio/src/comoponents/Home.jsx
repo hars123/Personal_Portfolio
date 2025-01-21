@@ -31,12 +31,7 @@ function Home() {
           >
             Resume
           </button>
-          <button
-            onClick={handleEmailClick}
-            className="bg-yellow-500 text-black font-medium py-2 px-6 rounded-lg shadow-md transform transition duration-300 hover:bg-white hover:scale-105 hover:shadow-2xl"
-          >
-            Email
-          </button>
+         
         </div>
       </div>
     </div>

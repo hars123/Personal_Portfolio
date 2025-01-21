@@ -10,7 +10,7 @@ function Footer() {
           <h3 className="text-xl font-semibold text-yellow-400 mb-2">Contact</h3>
           <p className="text-lg">harshitshukla4513@gmail.com</p>
           <p className="text-lg"></p>
-        </div>
+        </div>456
 
         {/* Center: Copyright */}
         <div className="text-center mb-6 sm:mb-0">
