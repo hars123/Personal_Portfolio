@@ -10,7 +10,6 @@ Hi! I'm Harshit Shukla, a passionate software developer currently pursuing an MC
 Homepage: Introduction to my professional journey and aspirations.
 Skills Section: Highlights my technical expertise in full-stack development.
 Contact Section: Provides easy ways to connect with me.
-
 # Skills
 Frontend Development
 React.js: Building dynamic and responsive user interfaces.
