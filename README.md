@@ -23,7 +23,6 @@ Tools and Technologies
 Git & GitHub: Version control and collaboration.
 Postman: API testing and development.
 VS Code: My go-to development environment.
-
 # Additional Skills
 Strong understanding of Data Structures and Algorithms (DSA).<br>
 Knowledge of deployment using Heroku and Netlify.
